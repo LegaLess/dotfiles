@@ -1,0 +1,63 @@
+* {
+font-family: SauceCodePro NF;
+color: #e5e9f0;
+background: transparent;
+}
+
+#inner-box {
+position: absolute;
+height: 195px;
+width: 195px;
+background:  rgba(41, 46, 66, 1);
+/* border-radius: 15px; */
+z-index: -1;
+}
+
+#window {
+position: relative;
+background: rgba(41, 46, 66, 1);
+margin: auto;
+/* padding: 10px; */
+border: 2px solid rgba(128, 168, 168, 1);
+/* background-clip: padding-box; */
+/* border-radius: 15px; */
+
+}
+
+#input {
+all: unset;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 15px;
+border: 1px solid rgba(58, 70, 70, 1);
+}
+
+#input:focus{
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid rgba(58, 70, 70, 1);
+}
+
+#outer-box {
+padding: 25px;
+margin: 8px;
+background-color: rgba(41, 46, 66, 1);
+border-radius: 15px;
+}
+
+#img {
+margin-right: 6px;
+}
+
+#entry {
+padding: 10px;
+border-radius: 15px;
+}
+
+#entry:selected {
+background-color: #2e3440;
+}
+
+#text {
+margin: 2px;
+}

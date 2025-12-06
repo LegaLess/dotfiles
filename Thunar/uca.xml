@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon></icon>
+	<name>Unzip</name>
+	<submenu></submenu>
+	<unique-id>1753452974197453-1</unique-id>
+	<command>7z x %f</command>
+	<description>Unzips 7z archive</description>
+	<range>*</range>
+	<patterns>*.7z</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>Alacritty</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1723522056499904-1</unique-id>
+	<command>alacritty --working-directory=%f</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Unzip</name>
+	<submenu></submenu>
+	<unique-id>1753453032407885-2</unique-id>
+	<command>unzip %f</command>
+	<description>Unzip zip archive</description>
+	<range>*</range>
+	<patterns>*.zip</patterns>
+	<other-files/>
+</action>
+</actions>
