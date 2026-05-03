@@ -1,0 +1,10 @@
+// @import "~/.config/hyprpanel/custom_colors.scss";
+
+@include styleModule (
+    'cmodule-ds4',
+    (
+        'text-color': #bccabb,
+        'icon-size': 1.2em,
+        'border-color': #bccabb
+    )
+)

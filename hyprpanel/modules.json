@@ -1,1 +1,14 @@
-{}
+{
+    "custom/ds4": {
+        "icon": "󰁿",
+        "label": "{percentage}%",
+        "tooltip": "Remaining battery: {percentage}%",
+        "truncationSize": -1,
+        "execute": "upower -i /org/freedesktop/UPower/devices/battery_ps_controller_battery_dco0co2doe9o98o69 | grep percentage | awk '{print $2}' | sed 's/[^0-9]*//g' | xargs -I{} echo '{\"percentage\": {}}'",
+        "executeOnAction": "",
+        "interval": 30000,
+        "hideOnEmpty": true,
+        "scrollThreshold": 1,
+        "actions": {}
+    }
+}
